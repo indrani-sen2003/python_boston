@@ -1,0 +1,1 @@
+This project predicts the price of properties in boston
