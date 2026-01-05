@@ -7,5 +7,6 @@ sys.path.insert(0, project_root)
 from src.boston import model_reg_boston
 
 def test_ac():
-    assert model_reg_boston("C:/gitactions/BostonHousing.csv")>0.7
+    assert model_reg_boston("BostonHousing.csv")>0.7
+
 
